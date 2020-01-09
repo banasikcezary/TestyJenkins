@@ -1,0 +1,3 @@
+tests\Test.class
+page\objects\LoginPage.class
+tests\Testbase.class
