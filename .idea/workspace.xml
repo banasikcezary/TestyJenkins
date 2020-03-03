@@ -4,7 +4,6 @@
     <list default="true" id="f8550242-34f4-4535-8df7-46905d199a19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Testbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Testbase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
