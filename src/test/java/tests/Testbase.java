@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -34,7 +35,12 @@ public class Testbase {
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
         driver = new ChromeDriver();
         driver.navigate().to("https://poczta.o2.pl/zaloguj");
-        driver.manage().window().maximize();
+
+
+        Dimension d = new Dimension(1382,744);
+        driver.manage().window().setSize(d);
+
+        
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
     }
 
