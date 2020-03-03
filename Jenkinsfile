@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build test code') {
             steps {
-                sh 'clean install -DskipTests'
+                sh 'mvn clean install -DskipTests'
             }
         }
         stage('Execute test') {
             steps {
-                sh 'test'
+                sh 'mvn test'
             }
         }
         stage('Generate allure report') {
