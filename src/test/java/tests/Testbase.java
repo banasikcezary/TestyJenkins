@@ -37,7 +37,7 @@ public class Testbase {
         driver.navigate().to("https://poczta.o2.pl/zaloguj");
 
 
-        Dimension d = new Dimension(1382,744);
+        Dimension d = new Dimension(1600,900);
         driver.manage().window().setSize(d);
 
 
