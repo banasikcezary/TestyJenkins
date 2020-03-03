@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.apache.logging.log4j.Logger;
@@ -29,10 +30,10 @@ public class LoginPage {
     @FindBy(id = "login-button")
     private WebElement button;
 
-    @FindBy(className = "sc-krvtoX")
+    @FindBy(className = "sc-dUjcNx")
     private WebElement send;
 
-    @FindBy(className = "sc-gFaPwZ")
+    @FindBy(className = "sc-gJWqzi")
     private WebElement email;
 
     @FindBy(className = "sc-kAzzGY")
@@ -41,7 +42,7 @@ public class LoginPage {
     @FindBy(css = "div[class=DraftEditor-editorContainer]")
     private WebElement description;
 
-    @FindBy(className = "sc-jtggT")
+    @FindBy(className = "sc-kLIISr")
     private WebElement go;
 
     @FindBy (xpath = "//*[text()='Bluesoft']")
@@ -77,7 +78,10 @@ public class LoginPage {
     public void clickOnLogInSubmit() { button.click();
         logger.info("Zalogowano");}
 
-    public void clickOnButtonCreateNewEmail(){ send.click();
+    public void clickOnButtonCreateNewEmail(){ //send.click();
+
+       Actions actions = new Actions(driver);
+      actions.moveToElement(send).click().perform();
         logger.info("Wybrano opcję wyślij email");}
 
     public void sendAddresseeEmail(){ email.sendKeys("testyasercji123@o2.pl");
