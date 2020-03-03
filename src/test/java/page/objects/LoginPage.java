@@ -33,7 +33,7 @@ public class LoginPage {
     @FindBy(className = "sc-dUjcNx")
     private WebElement send;
 
-    @FindBy(className = "sc-gJWqzi")
+    @FindBy(className = "xxxxxxxxxxxx")
     private WebElement email;
 
     @FindBy(className = "sc-kAzzGY")

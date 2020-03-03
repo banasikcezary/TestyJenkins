@@ -40,7 +40,7 @@ public class Testbase {
         Dimension d = new Dimension(1382,744);
         driver.manage().window().setSize(d);
 
-        
+
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
     }
 
