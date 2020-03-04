@@ -1,9 +1,13 @@
 pipeline {
     agent any
+    tools {
+            jdk 'JDK'
+            maven 'Maven'
+          }
     stages {
         stage('Build test code') {
             steps {
-                sh 'gradlew clean install -DskipTests'
+                sh 'mvn clean install -DskipTests'
             }
         }
         stage('Execute test') {
