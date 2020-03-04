@@ -78,10 +78,9 @@ public class LoginPage {
     public void clickOnLogInSubmit() { button.click();
         logger.info("Zalogowano");}
 
-    public void clickOnButtonCreateNewEmail(){ //send.click();
+    public void clickOnButtonCreateNewEmail(){ send.click();
 
-       Actions actions = new Actions(driver);
-      actions.moveToElement(send).click().perform();
+
         logger.info("Wybrano opcję wyślij email");}
 
     public void sendAddresseeEmail(){ email.sendKeys("testyasercji123@o2.pl");
