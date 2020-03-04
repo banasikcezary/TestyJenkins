@@ -36,7 +36,7 @@ public class Testbase {
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 ChromeOptions options = new ChromeOptions();
 options.addArguments(x);
-
+    options.addArguments("window-size=1382,744");
 
 
 
