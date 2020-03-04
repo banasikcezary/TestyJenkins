@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build test code') {
             steps {
-                sh 'mvn clean install -DskipTests'
+                sh 'gradlew clean install -DskipTests'
             }
         }
         stage('Execute test') {
