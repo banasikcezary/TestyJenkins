@@ -31,11 +31,15 @@ public class Testbase {
 
 
 
-
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
-        driver = new ChromeDriver();
-        Dimension d = new Dimension(1382,744);
-        driver.manage().window().setSize(d);
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--headless");
+options.addArguments("window-size=1382,744");
+
+
+        driver = new ChromeDriver(options);
+       // Dimension d = new Dimension(1382,744);
+     //   driver.manage().window().setSize(d);
 
 
         driver.navigate().to("https://poczta.o2.pl/zaloguj");
