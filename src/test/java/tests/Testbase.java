@@ -34,14 +34,16 @@ public class Testbase {
 
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
         driver = new ChromeDriver();
-        driver.navigate().to("https://poczta.o2.pl/zaloguj");
-
-
-        Dimension d = new Dimension(1600,900);
+        Dimension d = new Dimension(1382,744);
         driver.manage().window().setSize(d);
 
 
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+        driver.navigate().to("https://poczta.o2.pl/zaloguj");
+
+
+
+
+        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
     }
 
 
