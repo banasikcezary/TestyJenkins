@@ -86,7 +86,7 @@ public class LoginPage {
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
         Actions actions = new Actions(driver);
-        actions.moveToElement(email).sendKeys("testyasercji123@o2.pl").perform();
+        actions.moveToElement(email).click().sendKeys("testyasercji123@o2.pl").build().perform();
         logger.info("Wpisano adresata");}
 
     public void sendMessageSubject(){ subject.sendKeys("Bluesoft");
@@ -95,7 +95,10 @@ public class LoginPage {
     public void sendMessageContent(){ description.sendKeys("tralalala");
         logger.info("Wpisano treść wiadomości");}
 
-    public void clickOnSendEmailButton(){ go.click();
+    public void clickOnSendEmailButton(){ //go.click();
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(go).click().build().perform();
         logger.info("Wysłano emaila");}
 
     public void checkEmailOnPage(){ assertEquals(check.getText(), "Bluesoft");
