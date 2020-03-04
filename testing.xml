@@ -10,7 +10,7 @@
     </test>
 
     <test name="Negative Login Tests2">
-        <parameter name="x" value="0" />
+
         <classes>
             <class name="tests.Test"/>
         </classes>
