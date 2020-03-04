@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 
 import java.net.MalformedURLException;
@@ -19,9 +20,9 @@ public class Testbase {
 
 
     public WebDriver driver;
-
+@Parameters({"x"})
     @BeforeMethod
-    public void beforeTest(){
+    public void beforeTest(String x){
 
        // public void beforeTest()throws MalformedURLException{
            // DesiredCapabilities capability = DesiredCapabilities.chrome();
@@ -33,13 +34,12 @@ public class Testbase {
 
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 ChromeOptions options = new ChromeOptions();
-options.addArguments("--headless");
-options.addArguments("window-size=1382,744");
+options.addArguments(x);
+
 
 
         driver = new ChromeDriver(options);
-       // Dimension d = new Dimension(1382,744);
-     //   driver.manage().window().setSize(d);
+
 
 
         driver.navigate().to("https://poczta.o2.pl/zaloguj");
