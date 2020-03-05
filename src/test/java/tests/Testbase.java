@@ -38,13 +38,14 @@ public class Testbase {
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 ChromeOptions options = new ChromeOptions();
 options.addArguments(x);
-    options.addArguments("window-size=1936,1056");
+   // options.addArguments("window-size=1936,1056");
 
 
 
         driver = new ChromeDriver(options);
 
-
+    Dimension defaultSize = new Dimension(2560,1440);
+    driver.manage().window().setSize(defaultSize);
 
         driver.navigate().to("https://poczta.o2.pl/zaloguj");
 
