@@ -89,7 +89,7 @@ public class LoginPage {
         logger.info("Wybrano opcję wyślij email");}
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
 
         Actions actions = new Actions(driver);
@@ -109,7 +109,7 @@ public class LoginPage {
         logger.info("Wysłano emaila");}
 
     public void checkEmailOnPage(){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Bluesoft']")));
 
         assertEquals(check.getText(), "Bluesoft");
