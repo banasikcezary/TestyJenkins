@@ -77,11 +77,6 @@ public class LoginPage {
     }
 
     public void clickOnLogInSubmit() { button.click();
-
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
-
-    send.click();
         logger.info("Zalogowano");}
 
     public void clickOnButtonCreateNewEmail(){
@@ -98,6 +93,7 @@ public class LoginPage {
     public void sendAddresseeEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
+        email.click();
 email.sendKeys("testyasercji123@o2.pl");
         //Actions actions = new Actions(driver);
         //.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
