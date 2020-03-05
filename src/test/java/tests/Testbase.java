@@ -51,7 +51,7 @@ options.addArguments(x);
 
 
 
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
     }
 
 

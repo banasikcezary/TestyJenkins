@@ -8,7 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.apache.logging.log4j.Logger;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 import java.util.concurrent.TimeUnit;
@@ -79,12 +80,18 @@ public class LoginPage {
         logger.info("Zalogowano");}
 
     public void clickOnButtonCreateNewEmail(){ //send.click();
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(send));
+
 
        Actions actions = new Actions(driver);
       actions.moveToElement(send).click().build().perform();
         logger.info("Wybrano opcję wyślij email");}
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(email));
+
         Actions actions = new Actions(driver);
         actions.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
         logger.info("Wpisano adresata");}
