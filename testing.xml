@@ -9,11 +9,5 @@
         </classes>
     </test>
 
-    <test name="Negative Login Tests2">
-        <parameter name="x" value="--headless" />
-        <classes>
-            <class name="tests.Test"/>
-        </classes>
-    </test>
-
+ 
 </suite>
