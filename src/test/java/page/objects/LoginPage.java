@@ -81,7 +81,7 @@ public class LoginPage {
     public void clickOnButtonCreateNewEmail(){ //send.click();
 
        Actions actions = new Actions(driver);
-      actions.moveToElement(send).click().perform();
+      actions.moveToElement(send).click().build().perform();
         logger.info("Wybrano opcję wyślij email");}
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
