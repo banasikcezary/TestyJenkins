@@ -77,6 +77,10 @@ public class LoginPage {
     }
 
     public void clickOnLogInSubmit() { button.click();
+
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
+
     send.click();
         logger.info("Zalogowano");}
 
