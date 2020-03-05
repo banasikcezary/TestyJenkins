@@ -9,5 +9,10 @@
         </classes>
     </test>
 
+    <test name="Negative Login Tests2">
 
+        <classes>
+            <class name="tests.Test"/>
+        </classes>
+    </test>
 </suite>
