@@ -82,7 +82,7 @@ public class LoginPage {
 
     public void clickOnButtonCreateNewEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated((By.className("sc-dUjcNx")));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
 
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", send);
         send.click();
@@ -95,7 +95,7 @@ public class LoginPage {
 
     public void sendAddresseeEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated((By.cssSelector(".sc-gJWqzi")));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", email);
         email.click();
 email.sendKeys("testyasercji123@o2.pl");
