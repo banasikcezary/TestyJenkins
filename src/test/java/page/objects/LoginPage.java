@@ -86,7 +86,7 @@ public class LoginPage {
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
         Actions actions = new Actions(driver);
-        actions.moveToElement(email).click().sendKeys("testyasercji123@o2.pl").build().perform();
+        actions.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
         logger.info("Wpisano adresata");}
 
     public void sendMessageSubject(){ subject.sendKeys("Bluesoft");
