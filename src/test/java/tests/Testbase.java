@@ -23,7 +23,9 @@ public class Testbase {
     public WebDriver driver;
 @Parameters({"x"})
     @BeforeMethod
-    public void beforeTest(@Optional("0") String x){
+    public void beforeTest(){
+   // @Optional("0") String x
+    //<parameter name="x" value="--headless" />
 
        // public void beforeTest()throws MalformedURLException{
            // DesiredCapabilities capability = DesiredCapabilities.chrome();
@@ -35,7 +37,7 @@ public class Testbase {
 
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 ChromeOptions options = new ChromeOptions();
-options.addArguments(x);
+options.addArguments("--headless");
     options.addArguments("window-size=1382,744");
 
 
