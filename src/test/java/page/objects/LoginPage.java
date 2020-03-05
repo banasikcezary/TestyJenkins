@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.JavascriptExecutor;
 
 
 import java.util.concurrent.TimeUnit;
@@ -82,6 +83,8 @@ public class LoginPage {
     public void clickOnButtonCreateNewEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(By.className("sc-dUjcNx")));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", send);
         send.click();
 
        //Actions actions = new Actions(driver);
@@ -93,6 +96,7 @@ public class LoginPage {
     public void sendAddresseeEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".sc-gJWqzi")));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", email);
         email.click();
 email.sendKeys("testyasercji123@o2.pl");
         //Actions actions = new Actions(driver);
