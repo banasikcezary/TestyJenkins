@@ -77,6 +77,7 @@ public class LoginPage {
     }
 
     public void clickOnLogInSubmit() { button.click();
+    send.click();
         logger.info("Zalogowano");}
 
     public void clickOnButtonCreateNewEmail(){
@@ -88,13 +89,18 @@ public class LoginPage {
     //  actions.moveToElement(send).click().build().perform();
         logger.info("Wybrano opcję wyślij email");}
 
-    public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
+
+
+    public void sendAddresseeEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
 email.sendKeys("testyasercji123@o2.pl");
         //Actions actions = new Actions(driver);
         //.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
         logger.info("Wpisano adresata");}
+
+
+
 
     public void sendMessageSubject(){ subject.sendKeys("Bluesoft");
         logger.info("Wpisano temat wiadomości");}
