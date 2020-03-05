@@ -23,7 +23,7 @@ public class Testbase {
     public WebDriver driver;
 @Parameters({"x"})
     @BeforeMethod
-    public void beforeTest(){
+    public void beforeTest(@Optional("0") String x){
    // @Optional("0") String x
     //<parameter name="x" value="--headless" />
 
@@ -37,7 +37,7 @@ public class Testbase {
 
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 ChromeOptions options = new ChromeOptions();
-options.addArguments("--headless");
+options.addArguments(x);
     options.addArguments("window-size=1382,744");
 
 

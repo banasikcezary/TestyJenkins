@@ -3,7 +3,7 @@
 <suite name="Send Email1">
 
     <test name="Negative Login Tests">
-
+        <parameter name="x" value="--headless" />
         <classes>
             <class name="tests.Test"/>
         </classes>
