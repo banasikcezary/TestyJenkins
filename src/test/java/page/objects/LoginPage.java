@@ -81,7 +81,7 @@ public class LoginPage {
 
     public void clickOnButtonCreateNewEmail(){ //send.click();
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(send));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
 
 
        Actions actions = new Actions(driver);
@@ -90,7 +90,7 @@ public class LoginPage {
 
     public void sendAddresseeEmail(){// email.sendKeys("testyasercji123@o2.pl");
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(email));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
 
         Actions actions = new Actions(driver);
         actions.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
@@ -108,7 +108,11 @@ public class LoginPage {
         actions.moveToElement(go).click().build().perform();
         logger.info("Wysłano emaila");}
 
-    public void checkEmailOnPage(){ assertEquals(check.getText(), "Bluesoft");
+    public void checkEmailOnPage(){
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Bluesoft']")));
+
+        assertEquals(check.getText(), "Bluesoft");
         logger.info("Sprawdzono wysłanie maila");
     }
 
