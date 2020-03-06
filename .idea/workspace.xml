@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8550242-34f4-4535-8df7-46905d199a19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/1a3887c9-019d-4462-849a-48bbb2b3a9ad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/20a098dd-4004-47e7-930c-c0a8c4b7a912-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/42cc745e-2f8a-474d-aaca-aeeaa65ce20d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4f7f76e2-896f-45c4-8e7a-ea58401bd8cf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/64b745b5-ca77-4e87-b4ab-65626c294f20-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9a9aed75-8207-46b2-9b0f-e1dd6b5928db-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c0a48a0b-87c8-47ee-adb1-86cf19979ebb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c42873f1-f763-42a5-9d40-5e90e8f91694-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e4a9b753-6dcd-41a2-8d25-bdd1099761ff-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e8685a2f-c3aa-4028-8d54-6d3687efaedd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e88b8402-5b25-4d72-98a8-120bbffc4278-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e8e06b6a-fbb8-47ee-8732-9de610756a8a-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583501016320</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="testing">
+      <created>1583503859897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583503859897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="testing">
+      <created>1583503966674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583503966674</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,7 +227,8 @@
     </ignored-roots>
     <MESSAGE value="123" />
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Notifications" timestamp="1583483142880">
@@ -243,10 +243,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="651" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1583227816681" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1583503859144">
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1583504155071">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583503859144" />
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583504155071" />
     <state width="1557" height="186" key="GridCell.Tab.0.bottom" timestamp="1583501833280">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -267,10 +267,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583227867881" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583503861637">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583503967762">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583503861637" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583503967762" />
     <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583491461378">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
