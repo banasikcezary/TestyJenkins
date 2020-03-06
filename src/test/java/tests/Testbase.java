@@ -23,13 +23,16 @@ public class Testbase {
     public WebDriver driver;
 @Parameters({"x"})
     @BeforeMethod
-    public void beforeTest()throws MalformedURLException{
+    public void beforeTest(@Optional("0") String x)throws MalformedURLException{
    // @Optional("0") String x
     //<parameter name="x" value="--headless" />
 
        //public void beforeTest()throws MalformedURLException{
-            DesiredCapabilities capability = DesiredCapabilities.chrome();
-    driver = new RemoteWebDriver(new URL("http://192.168.56.1:4444/wd/hub"), capability);
+            //DesiredCapabilities capability = DesiredCapabilities.chrome();
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments(x);
+
+    driver = new RemoteWebDriver(new URL("http://192.168.56.1:4444/wd/hub"), options);
        //driver = new RemoteWebDriver(new URL("http://127.0.0.1:13000/wd/hub"), capability);
         //System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 
