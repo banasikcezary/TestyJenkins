@@ -84,24 +84,22 @@ public class LoginPage {
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", send);
-        send.click();
+        Actions actions = new Actions(driver);
+        actions.moveToElement(send).click().build().perform();
 
-       //Actions actions = new Actions(driver);
-    //  actions.moveToElement(send).click().build().perform();
         logger.info("Wybrano opcję wyślij email");}
 
 
 
-  //  public void sendAddresseeEmail(){
-   //     WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
-   //     webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
-  //      ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", email);
-  //      email.click();
-//email.sendKeys("testyasercji123@o2.pl");
-        //Actions actions = new Actions(driver);
-        //.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
-   //     logger.info("Wpisano adresata");}
+public void sendAddresseeEmail(){
+       WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
+      webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
+    Actions actions = new Actions(driver);
+    actions.moveToElement(email).perform();
+
+    email.click();
+    email.sendKeys("testyasercji123@o2.pl");
+        logger.info("Wpisano adresata");}
 
 
 
