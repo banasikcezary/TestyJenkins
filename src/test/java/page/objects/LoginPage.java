@@ -117,7 +117,8 @@ public void sendAddresseeEmail(){
     public void clickOnSendEmailButton(){ //go.click();
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(go).click().build().perform();
+        actions.moveToElement(go).perform();
+        go.click();
         logger.info("Wysłano emaila");}
 
     public void checkEmailOnPage(){
