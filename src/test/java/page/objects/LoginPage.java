@@ -94,12 +94,11 @@ public class LoginPage {
 public void sendAddresseeEmail(){
        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
       webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
-    Actions actions = new Actions(driver);
-    actions.moveToElement(email).perform();
-
-    email.click();
+  //  Actions actions = new Actions(driver);
+   // actions.moveToElement(email).sendKeys("testyasercji123@o2.pl").build().perform();
     email.sendKeys("testyasercji123@o2.pl");
-        logger.info("Wpisano adresata");}
+        logger.info("Wpisano adresata");
+    }
 
 
 
