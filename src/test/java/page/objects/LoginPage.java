@@ -81,7 +81,7 @@ public class LoginPage {
         logger.info("Zalogowano");}
 
     public void clickOnButtonCreateNewEmail(){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
 
         Actions actions = new Actions(driver);
