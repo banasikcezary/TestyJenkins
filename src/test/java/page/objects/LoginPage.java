@@ -106,10 +106,12 @@ public class LoginPage {
 
 
 
-    public void sendMessageSubject(){ subject.sendKeys("Bluesoft");
+    public void sendMessageSubject(){
 
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-kAzzGY")));
+
+        subject.sendKeys("Bluesoft");
         logger.info("Wpisano temat wiadomości");}
 
     public void sendMessageContent(){ description.sendKeys("tralalala");
