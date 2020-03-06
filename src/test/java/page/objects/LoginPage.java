@@ -122,6 +122,8 @@ public void sendAddresseeEmail(){
         logger.info("Wysłano emaila");}
 
     public void checkEmailOnPage(){
+
+
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Bluesoft']")));
 

@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Execute test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn test -DtestSuite=testing.xml'
             }
         }
         stage('Generate allure report') {
