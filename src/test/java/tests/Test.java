@@ -16,7 +16,7 @@ public void asUserShouldBeAbleToSendAndReceiveAnEmail() {
     page.sendPassword();
     page.clickOnLogInSubmit();
     page.clickOnButtonCreateNewEmail();
-    page.sendAddresseeEmail();
+    //page.sendAddresseeEmail();
     page.sendMessageSubject();
     page.sendMessageContent();
     page.clickOnSendEmailButton();

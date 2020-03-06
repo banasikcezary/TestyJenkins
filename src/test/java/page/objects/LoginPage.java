@@ -93,15 +93,15 @@ public class LoginPage {
 
 
 
-    public void sendAddresseeEmail(){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", email);
-        email.click();
-email.sendKeys("testyasercji123@o2.pl");
+  //  public void sendAddresseeEmail(){
+   //     WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
+   //     webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
+  //      ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", email);
+  //      email.click();
+//email.sendKeys("testyasercji123@o2.pl");
         //Actions actions = new Actions(driver);
         //.moveToElement(email).click(email).sendKeys("testyasercji123@o2.pl").build().perform();
-        logger.info("Wpisano adresata");}
+   //     logger.info("Wpisano adresata");}
 
 
 
