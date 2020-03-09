@@ -7,7 +7,9 @@
     <groupId>LearningSelenium</groupId>
     <artifactId>selenium-intro</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <aspectj.version>1.9.2</aspectj.version>
+    </properties>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
@@ -15,6 +17,11 @@
         <artifactId>testng</artifactId>
         <version>7.0.0</version>
         <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>${aspectj.version}</version>
     </dependency>
 
     <dependency>
@@ -57,15 +64,24 @@
     <build>
 
         <plugins>
-            <plugin>
 
+                <plugin>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-maven</artifactId>
+                    <version>2.10.0</version>
+                    <configuration>
+                        <reportVersion>2.6.0</reportVersion>
+                    </configuration>
+                </plugin>
+            <plugin>
 
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.21.0</version>
                 <configuration>
+
                     <suiteXmlFiles>
-                        <suiteXmlFile>${testSuite}</suiteXmlFile>
+                        <suiteXmlFile>src\test\testing.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
@@ -76,6 +92,7 @@
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
+
                     </dependency>
                 </dependencies>
             </plugin>
