@@ -10,10 +10,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import java.net.URL;
 
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 
@@ -32,7 +32,7 @@ public class Testbase {
     ChromeOptions options = new ChromeOptions();
     options.addArguments(x);
 
-    driver = new RemoteWebDriver(new URL("http://192.168.0.130:4444/wd/hub"), options);
+    driver = new RemoteWebDriver(new URL("http://192.168.56.1:4444/wd/hub"), options);
        //driver = new RemoteWebDriver(new URL("http://127.0.0.1:13000/wd/hub"), capability);
         //System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
 
