@@ -10,10 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.JavascriptExecutor;
 
-
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertEquals;
 
@@ -130,14 +127,6 @@ public void sendAddresseeEmail(){
         assertEquals(check.getText(), "Bluesoft");
         logger.info("Sprawdzono wysłanie maila");
     }
-
-
-
-
-
-
-
-
 
 
 }

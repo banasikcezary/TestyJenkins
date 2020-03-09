@@ -14,46 +14,26 @@ import java.net.URL;
 
 
 import java.net.MalformedURLException;
-import java.util.concurrent.TimeUnit;
 
 
 public class Testbase {
 
 
     public WebDriver driver;
-@Parameters({"x"})
+    @Parameters({"x"})
     @BeforeMethod
     public void beforeTest(@Optional("0") String x)throws MalformedURLException{
-   // @Optional("0") String x
-    //<parameter name="x" value="--headless" />
 
-       //public void beforeTest()throws MalformedURLException{
-            //DesiredCapabilities capability = DesiredCapabilities.chrome();
+
     ChromeOptions options = new ChromeOptions();
     options.addArguments(x);
 
     driver = new RemoteWebDriver(new URL("http://192.168.56.1:4444/wd/hub"), options);
-       //driver = new RemoteWebDriver(new URL("http://127.0.0.1:13000/wd/hub"), capability);
-        //System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe" );
-
-
-
-//ChromeOptions options = new ChromeOptions();
-//options.addArguments(x);
-  // options.addArguments("--window-size=1382,744");
-
-
-
-        //driver = new ChromeDriver(options);
-
-
-
-        driver.navigate().to("https://poczta.o2.pl/zaloguj");
+    driver.navigate().to("https://poczta.o2.pl/zaloguj");
 
 
 
 
-       // driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
     }
 
 
