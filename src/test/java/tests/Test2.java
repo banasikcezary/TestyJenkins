@@ -11,8 +11,8 @@ public class Test2 extends Testbase {
 
 
 
-    @Description("two tests are carried out as part of the test, the first sends an email, the second checks whether it has been delivered")
     @org.testng.annotations.Test
+    @Description("two tests are carried out as part of the test, the first sends an email, the second checks whether it has been delivered")
 
     public void asUserShouldBeAbleToSendAndReceiveAnEmail2() {
         LoginPage page = new LoginPage(driver);
