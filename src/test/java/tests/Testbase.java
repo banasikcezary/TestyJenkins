@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,6 +22,7 @@ public class Testbase {
 
     public WebDriver driver;
     @Parameters({"x"})
+    @Step("Loading configuration from configuration.properties")
     @BeforeMethod
     public void beforeTest(@Optional("0") String x)throws MalformedURLException{
 
@@ -39,7 +41,7 @@ public class Testbase {
 
 
 
-
+    @Step("Disposing browser")
     @AfterMethod
     public void afterTest(){
 

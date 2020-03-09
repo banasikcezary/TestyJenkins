@@ -1,5 +1,6 @@
 package page.objects;
 
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -63,20 +64,20 @@ public class LoginPage {
     }
 
 
-
+    @Step("sendLogin")
     public void sendLogin() {
         login.sendKeys("testyasercji123");
         logger.info("Wpisano login");
     }
-
+    @Step("sendPassword")
     public void sendPassword() {
         password.sendKeys("123456abC");
         logger.info("Wpisano hasło");
     }
-
+    @Step("clickOnLogInSubmit")
     public void clickOnLogInSubmit() { button.click();
         logger.info("Zalogowano");}
-
+    @Step("clickOnButtonCreateNewEmail")
     public void clickOnButtonCreateNewEmail(){
         WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("sc-dUjcNx")));
@@ -87,7 +88,7 @@ public class LoginPage {
         logger.info("Wybrano opcję wyślij email");}
 
 
-
+    @Step("sendAddresseeEmail")
 public void sendAddresseeEmail(){
        WebDriverWait webDriverWait = new WebDriverWait(driver, 100);
       webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".sc-gJWqzi")));
@@ -99,7 +100,7 @@ public void sendAddresseeEmail(){
 
 
 
-
+    @Step("sendMessageSubject")
     public void sendMessageSubject(){
 
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
@@ -107,17 +108,17 @@ public void sendAddresseeEmail(){
 
         subject.sendKeys("Bluesoft");
         logger.info("Wpisano temat wiadomości");}
-
+    @Step("sendMessageContent")
     public void sendMessageContent(){ description.sendKeys("tralalala");
         logger.info("Wpisano treść wiadomości");}
-
+    @Step("clickOnSendEmailButton")
     public void clickOnSendEmailButton(){ //go.click();
 
         Actions actions = new Actions(driver);
         actions.moveToElement(go).perform();
         go.click();
         logger.info("Wysłano emaila");}
-
+    @Step("checkEmailOnPage")
     public void checkEmailOnPage(){
 
 
