@@ -25,7 +25,6 @@ public void asUserShouldBeAbleToSendAndReceiveAnEmail() {
     page.sendMessageSubject();
     page.sendMessageContent();
     page.clickOnSendEmailButton();
-    page.checkEmailOnPage();
 
 }
 

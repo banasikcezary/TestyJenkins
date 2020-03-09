@@ -12,7 +12,7 @@
     <test name="Negative Login Tests2">
 
         <classes>
-            <class name="tests.Test"/>
+            <class name="tests.Test2"/>
         </classes>
     </test>
 </suite>
