@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8550242-34f4-4535-8df7-46905d199a19" name="Default Changelist" comment="">
+    <list default="true" id="f8550242-34f4-4535-8df7-46905d199a19" name="Default Changelist" comment="testing">
+      <change afterPath="$PROJECT_DIR$/allure-results/0178686d-61d4-4ba2-b18f-f7e254d35ea8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2eb3d39d-dd02-45c0-8796-396a78857b0e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4bf8bda4-617c-4e3b-9104-7cc665a965d3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/526cf16b-0bd9-4ea3-8ba0-8ef0003dde20-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/59af3521-f725-48c7-8ef5-ca0e9cdd32c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5af2c960-66f1-44c9-8de1-b081ca3666ec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/63ed8cf7-5f08-4efd-950c-f4dd65e9ffd0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8859d739-94c9-4e8a-9414-91c2623d5cc6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9147e9ba-1e8b-4721-ac20-aad095a3a56d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9fd31368-7507-408b-bf88-b2a3bb4a7075-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a64e337b-c00b-4fc0-9a6f-2298fb7903e7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a7fe6d43-42ee-48ff-b80c-0f8e587a14e2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b1faa4cc-733e-44b2-8b6f-fb4f105ca41b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c296724d-fe1f-428a-afd7-b28854ce37ab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c9dbf411-aa76-4f0d-a4dc-c65652146d3a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d172adbd-2e04-4aa7-b850-992c20c0dcee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d865bfdb-3075-41d6-988c-933167c16265-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd5cab54-f577-4aab-9adb-cfb8c3f4754b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/de976c6d-d0cf-4188-8a4d-380d496a8232-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3a3ac6f-45c7-4b13-8ef0-3774020800fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e4c7fe26-05c9-42d0-b2dc-a28bed8b5b30-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9f2270e-8df6-40d3-95cd-f04ea8748974-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,22 +300,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583504155071" />
-    <state width="1557" height="186" key="GridCell.Tab.0.bottom" timestamp="1583501833280">
+    <state width="1557" height="186" key="GridCell.Tab.0.bottom" timestamp="1583506713863">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583501833280" />
-    <state width="1557" height="186" key="GridCell.Tab.0.center" timestamp="1583501833279">
+    <state width="1557" height="186" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583506713863" />
+    <state width="1557" height="186" key="GridCell.Tab.0.center" timestamp="1583506713863">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583501833279" />
-    <state width="1557" height="186" key="GridCell.Tab.0.left" timestamp="1583501833279">
+    <state width="1557" height="186" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583506713863" />
+    <state width="1557" height="186" key="GridCell.Tab.0.left" timestamp="1583506713862">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583501833279" />
-    <state width="1557" height="186" key="GridCell.Tab.0.right" timestamp="1583501833279">
+    <state width="1557" height="186" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583506713862" />
+    <state width="1557" height="186" key="GridCell.Tab.0.right" timestamp="1583506713863">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583501833279" />
+    <state width="1557" height="186" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583506713863" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1583227867881">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
