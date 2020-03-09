@@ -2,23 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8550242-34f4-4535-8df7-46905d199a19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/1026c88a-e05c-4526-8a09-973a1784c154-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/133c51a3-d5e4-4329-8f81-dc7ff5844760-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/15ba3ea5-391a-4d8d-a91d-9d5e5ec119ca-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/44ec5b93-e1b2-4877-b58d-cfdc06f5b6f0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4bf5c6f8-4aaf-4faa-8367-b187575da7c9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b1fabd6c-5f82-4fb4-9411-c9f5db285e88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b92e49ea-e5d8-4214-ab26-9492137c274c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cc30a43d-0860-447a-9201-04b6f32deabe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ce997a54-4588-4073-87fc-31125a4aebb2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d5e9de60-1476-4ce6-a3e6-841c0f85310b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e04b8503-c650-4364-932d-706224cc6107-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/091115ac-b635-430f-ab21-70c1dee55916-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/095cb44d-07f0-4620-ad8a-e9664c1dc366-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0e4b0a13-f8c4-4260-bff2-4cf57b14f1c8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/18a41aa5-b6e8-4d86-8ade-4c0a7f5fe9f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1966cc0b-a626-4822-89ca-d94838eca192-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1aa26f53-df2d-44a9-87ff-5afac59daede-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4566414e-a05e-4df0-b91e-1c2a403979b4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d0cb36f-e057-4596-a858-5db99b7c53ed-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/53e0f247-77ae-4e8c-85ed-89dbd803c604-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60b30ed5-d7a5-474c-a51f-d7c508707b65-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/674ea0fb-0bcc-447b-b095-1c139a139afb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69e29079-fc11-425e-b92c-bb3fd6be3f60-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71457d45-5921-4de2-a790-ec6650b8c578-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71f80a01-7887-4def-8904-c7cd1ddd163d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/761b48d1-9642-49c2-ab9a-9a3321f6c621-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7842f68d-9bad-4b97-8314-e13c5bab0779-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7d811793-95a8-4da1-817d-be76d0411812-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7fc8521d-477a-48c0-b94d-5333cc6ed442-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b385dc9-ed73-480c-82b3-023610dd8018-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9368300d-60eb-40e2-a1c6-f3cf099ca295-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e721773-719b-4903-89a9-e415cd4def5f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3d71b5d-c696-4ea0-ac9b-b62329ee5a39-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3d78c41-977e-46bc-8e45-86bf61b54d00-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3e2ef33-81d3-4636-9b85-64247b226c2b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b17ab075-8aa3-444c-867d-e36ba4dfee65-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b7668393-84a0-4d4b-8ef5-edf5638de37f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b9fa0d09-785a-4bcc-8d3b-eab3cdd867b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bac4fb5c-5a99-427a-8852-c200663c46f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c31d5895-8d4f-46a4-8a7c-694141106313-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c7561814-b2d7-4c43-baa4-162a9993ae02-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ce5e58ab-d92b-4036-ae3a-b67e97cd898b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cea5e34a-c9ef-41bf-aaf3-81f0717a1add-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e7cc6f7f-44f9-48f1-8bff-793d21c778fe-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Testbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Testbase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583752278082</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="PON">
+      <created>1583752846090</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583752846090</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,26 +364,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="651" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1583740147874" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1583752277310">
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1583752845065">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583752277310" />
-    <state width="1557" height="186" key="GridCell.Tab.0.bottom" timestamp="1583752452219">
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583752845065" />
+    <state width="1557" height="186" key="GridCell.Tab.0.bottom" timestamp="1583754722155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583752452219" />
-    <state width="1557" height="186" key="GridCell.Tab.0.center" timestamp="1583752452219">
+    <state width="1557" height="186" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583754722155" />
+    <state width="1557" height="186" key="GridCell.Tab.0.center" timestamp="1583754722155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583752452219" />
-    <state width="1557" height="186" key="GridCell.Tab.0.left" timestamp="1583752452218">
+    <state width="1557" height="186" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583754722155" />
+    <state width="1557" height="186" key="GridCell.Tab.0.left" timestamp="1583754722154">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583752452218" />
-    <state width="1557" height="186" key="GridCell.Tab.0.right" timestamp="1583752452219">
+    <state width="1557" height="186" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583754722154" />
+    <state width="1557" height="186" key="GridCell.Tab.0.right" timestamp="1583754722155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="186" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583752452219" />
+    <state width="1557" height="186" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583754722155" />
     <state x="512" y="146" key="MultipleFileMergeDialog" timestamp="1583739779638">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -365,10 +392,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583227867881" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583752279420">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583752847544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583752279420" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583752847544" />
     <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583491461378">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
