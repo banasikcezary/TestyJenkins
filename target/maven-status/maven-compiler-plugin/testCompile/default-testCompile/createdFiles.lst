@@ -1,3 +1,4 @@
 tests\Test.class
+tests\Test2.class
 page\objects\LoginPage.class
 tests\Testbase.class
